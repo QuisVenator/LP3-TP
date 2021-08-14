@@ -12,7 +12,7 @@
 Total: 46 -> C.U: 46/4 = 11,5
 
 #### Gutierrez
- - [ ] Listing 1.1
+ - [x] Listing 1.1
  - [ ] Listing 2.2
  - [ ] Listing 2.6
  - [ ] Listing 3.1
@@ -27,7 +27,7 @@ Total: 46 -> C.U: 46/4 = 11,5
 
 
 #### Pamplona
- - [ ] Listing 1.2
+ - [x] Listing 1.2
  - [ ] Listing 2.3
  - [ ] Listing 2.7
  - [ ] Listing 3.2
@@ -42,7 +42,7 @@ Total: 46 -> C.U: 46/4 = 11,5
 
 
 #### Pauls
- - [ ] Listing 1.3
+ - [x] Listing 1.3
  - [ ] Listing 2.4
  - [ ] Listing 2.8
  - [ ] Listing 3.3
