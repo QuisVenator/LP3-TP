@@ -1,3 +1,9 @@
+#vscode
+/.vscode
+
+#bin
+/bin
+
 # Prerequisites
 *.d
 
