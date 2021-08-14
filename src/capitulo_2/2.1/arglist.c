@@ -1,6 +1,6 @@
 /**
- * Listing 2.1: Usando argumentos de línea de comandos
- * Francisco Sanabria Zelaya
+ * Listing 2.1: Usando argumentos de línea de comandos;
+ * Francisco Sanabria Zelaya;
 */
 
 #include <stdio.h>
