@@ -8,5 +8,7 @@ all:
 
 	cd src/capitulo_3/3.1 && make
 	cd src/capitulo_3/3.5 && make
+
+	cd src/capitulo_4/4.2 && make
 clean:
 	rm -rf bin
