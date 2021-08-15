@@ -10,5 +10,6 @@ all:
 	cd src/capitulo_3/3.5 && make
 
 	cd src/capitulo_4/4.2 && make
+	cd src/capitulo_4/4.6 && make
 clean:
 	rm -rf bin
