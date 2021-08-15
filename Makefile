@@ -12,6 +12,7 @@ listing-3.1 := src/capitulo_3/3.1
 listing-3.5 := src/capitulo_3/3.5
 listing-4.2 := src/capitulo_4/4.2
 listing-4.6 := src/capitulo_4/4.6
+listing-4.10 := src/capitulo_4/4.10
 
 listings := \
 	$(capitulo_1) \
@@ -24,7 +25,8 @@ listings := \
 	$(listing-3.1) \
 	$(listing-3.5) \
 	$(listing-4.2) \
-	$(listing-4.6)
+	$(listing-4.6) \
+	$(listing-4.10)
 
 .PHONY: all clean $(listings)
 
