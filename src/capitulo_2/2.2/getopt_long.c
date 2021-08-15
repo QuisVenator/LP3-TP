@@ -1,3 +1,8 @@
+/**
+ * Listing 2.2: Usar la funcion getopt para los argumentos;
+ * Jose Luis Junior Gutierrez Aguero;
+*/
+
 #include <getopt.h>
 #include <stdio.h>
 #include <stdlib.h>
