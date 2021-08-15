@@ -1,4 +1,4 @@
-listing-5.12: sem_init.c
+listing-5.3: sem_init.c
 	# Crea la carpeta si no existe y compila el ejecutable
 
 	@mkdir -p ../../../bin/capitulo_5/5.3
