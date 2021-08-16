@@ -5,6 +5,7 @@ listing-1.3 := $(capitulo_1) #para que funcione make listing-1.3, ejecutando el 
 listing-2.1 := src/capitulo_2/2.1
 listing-2.2 := src/capitulo_2/2.2
 listing-2.3 := src/capitulo_2/2.3
+listing-2.4 := src/capitulo_2/2.4
 listing-2.6 := src/capitulo_2/2.6
 listing-2.7 := src/capitulo_2/2.7
 listing-3.1 := src/capitulo_3/3.1
@@ -17,6 +18,7 @@ listings := \
 	$(listing-2.1) \
 	$(listing-2.2) \
 	$(listing-2.3) \
+	$(listing-2.4) \
 	$(listing-2.6) \
 	$(listing-2.7) \
 	$(listing-3.1) \
