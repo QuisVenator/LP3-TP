@@ -1,4 +1,7 @@
 capitulo_1 := src/capitulo_1
+listing-1.1 := $(capitulo_1) #para que funcione make listing-1.1, ejecutando el make del capitulo 1
+listing-1.2 := $(capitulo_1) #para que funcione make listing-1.2, ejecutando el make del capitulo 1
+listing-1.3 := $(capitulo_1) #para que funcione make listing-1.3, ejecutando el make del capitulo 1
 listing-2.1 := src/capitulo_2/2.1
 listing-2.2 := src/capitulo_2/2.2
 listing-2.3 := src/capitulo_2/2.3
@@ -17,6 +20,9 @@ all: $(listings)
 
 $(listings):
 	$(MAKE) --directory=$@
+
+%:
+	$(MAKE) --directory=$($@)
 
 clean:
 	rm -rf bin
