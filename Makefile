@@ -32,7 +32,7 @@ $(listings):
 	$(MAKE) --directory=$@
 
 %:
-	$(MAKE) --directory=$($@)
+	$(if $($@), $(MAKE) --directory=$($@), $(error comando o listing "$@" no existe))
 
 clean:
 	rm -rf bin
