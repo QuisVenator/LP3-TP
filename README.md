@@ -43,7 +43,7 @@ Total: 46 -> C.U: 46/4 = 11,5
 
 #### Pauls
  - [x] Listing 1.3
- - [ ] Listing 2.4
+ - [x] Listing 2.4
  - [ ] Listing 2.8
  - [ ] Listing 3.3
  - [ ] Listing 3.7
