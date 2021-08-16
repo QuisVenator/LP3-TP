@@ -8,6 +8,7 @@ listing-2.3 := src/capitulo_2/2.3
 listing-2.4 := src/capitulo_2/2.4
 listing-2.6 := src/capitulo_2/2.6
 listing-2.7 := src/capitulo_2/2.7
+listing-2.8 := src/capitulo_2/2.8
 listing-3.1 := src/capitulo_3/3.1
 listing-3.5 := src/capitulo_3/3.5
 listing-4.2 := src/capitulo_4/4.2
@@ -21,6 +22,7 @@ listings := \
 	$(listing-2.4) \
 	$(listing-2.6) \
 	$(listing-2.7) \
+	$(listing-2.8) \
 	$(listing-3.1) \
 	$(listing-3.5) \
 	$(listing-4.2) \
