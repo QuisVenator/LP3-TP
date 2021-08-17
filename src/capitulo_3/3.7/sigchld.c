@@ -30,7 +30,7 @@ int main ()
     pid_t child_pid;
     child_pid = fork () ;
     if(child_pid != 0) {
-        printf("Esperamos 5 segundos para tener alta probabilidad de que termina el proceso hijo\n");
+        printf("Esperamos hasta 5 segundos para tener alta probabilidad de que termina el proceso hijo\n");
     } else {
         exit(random()*10); //salir con codigo aleatorio para demostrar funcionamiento
     }
