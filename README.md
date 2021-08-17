@@ -13,12 +13,12 @@ Total: 46 -> C.U: 46/4 = 11,5
 
 #### Gutierrez
  - [x] Listing 1.1
- - [ ] Listing 2.2
- - [ ] Listing 2.6
- - [ ] Listing 3.1
- - [ ] Listing 3.5
- - [ ] Listing 4.2
- - [ ] Listing 4.6
+ - [x] Listing 2.2
+ - [x] Listing 2.6
+ - [X] Listing 3.1
+ - [X] Listing 3.5
+ - [X] Listing 4.2
+ - [X] Listing 4.6
  - [ ] Listing 4.10
  - [ ] Listing 4.14
  - [ ] Listing 5.3
@@ -57,7 +57,7 @@ Total: 46 -> C.U: 46/4 = 11,5
 
 #### Sanabria
  - [x] Listing 2.1
- - [ ] Listing 2.5
+ - [x] Listing 2.5
  - [ ] Listing 2.9
  - [ ] Listing 3.4
  - [ ] Listing 4.1
