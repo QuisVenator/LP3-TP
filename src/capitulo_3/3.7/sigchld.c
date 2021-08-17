@@ -32,7 +32,7 @@ int main ()
     if(child_pid != 0) {
         printf("Esperamos hasta 5 segundos para tener alta probabilidad de que termina el proceso hijo\n");
     } else {
-        exit(random()*10); //salir con codigo aleatorio para demostrar funcionamiento
+        exit(rand()%10); //salir con codigo aleatorio para demostrar funcionamiento
     }
 
     sleep(5);
