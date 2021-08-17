@@ -57,7 +57,7 @@ Total: 46 -> C.U: 46/4 = 11,5
 
 #### Sanabria
  - [x] Listing 2.1
- - [ ] Listing 2.5
+ - [x] Listing 2.5
  - [ ] Listing 2.9
  - [ ] Listing 3.4
  - [ ] Listing 4.1
