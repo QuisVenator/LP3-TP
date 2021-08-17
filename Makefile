@@ -22,6 +22,7 @@ listing-4.2 := src/capitulo_4/4.2
 listing-4.3 := src/capitulo_4/4.3
 listing-4.4 := src/capitulo_4/4.4
 listing-4.6 := src/capitulo_4/4.6
+listing-4.7 := src/capitulo_4/4.7
 listing-4.8 := src/capitulo_4/4.8
 listing-4.10 := src/capitulo_4/4.10
 listing-4.14 := src/capitulo_4/4.14
@@ -51,6 +52,7 @@ listings := \
 	$(listing-4.3) \
 	$(listing-4.4) \
 	$(listing-4.6) \
+	$(listing-4.7) \
 	$(listing-4.8) \
 	$(listing-4.10) \
 	$(listing-4.14) \
