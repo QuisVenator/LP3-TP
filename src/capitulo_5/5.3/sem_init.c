@@ -2,6 +2,9 @@
 #include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/sem.h>
+#include <errno.h>
+
+#define KEY 1492
 
 /* We must define union semun ourselves.  */
 
@@ -25,7 +28,13 @@ int binary_semaphore_initialize (int semid)
 
 int main(){
     printf("Inicializando semaforo binario...\n");
-    int semaforo = binary_semaphore_initialize(1);
-    printf("Semaforo binario inicializado: %d\n",semaforo);
+    int semid = semget(KEY, 1, 0666 | IPC_CREAT);
+    int semaforo = binary_semaphore_initialize(semid);
+    if(semaforo >= 0){
+      printf("Semaforo binario inicializado: %d\n",KEY);
+    }else{
+      printf("No pudo inicializarce: %d\n",errno);
+    }
+    
     return 0;
 }
