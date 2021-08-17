@@ -23,6 +23,7 @@ listings := \
 	$(listing-2.6) \
 	$(listing-2.7) \
 	$(listing-3.1) \
+	$(listing-3.2) \
 	$(listing-3.5) \
 	$(listing-4.2) \
 	$(listing-4.6)
