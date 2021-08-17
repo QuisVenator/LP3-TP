@@ -3,5 +3,5 @@ listing-4.3: thread-create2.c
 
 	@mkdir -p ../../../bin/capitulo_4/4.3
 
-	# Necesito arreglar como linkear pthread
+	# Se usa -pthread para enlazar la libreria pthread
 	gcc -pthread thread-create2.c -o ../../../bin/capitulo_4/4.3/thread-create2
