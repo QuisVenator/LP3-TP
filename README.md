@@ -19,11 +19,11 @@ Total: 46 -> C.U: 46/4 = 11,5
  - [X] Listing 3.5
  - [X] Listing 4.2
  - [X] Listing 4.6
- - [ ] Listing 4.10
- - [ ] Listing 4.14
- - [ ] Listing 5.3
- - [ ] Listing 5.7
- - [ ] Listing 5.11
+ - [X] Listing 4.10
+ - [X] Listing 4.14
+ - [X] Listing 5.3
+ - [X] Listing 5.7
+ - [X] Listing 5.11
 
 
 #### Pamplona
