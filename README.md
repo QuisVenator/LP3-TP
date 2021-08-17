@@ -19,11 +19,11 @@ Total: 46 -> C.U: 46/4 = 11,5
  - [X] Listing 3.5
  - [X] Listing 4.2
  - [X] Listing 4.6
- - [ ] Listing 4.10
- - [ ] Listing 4.14
- - [ ] Listing 5.3
- - [ ] Listing 5.7
- - [ ] Listing 5.11
+ - [X] Listing 4.10
+ - [X] Listing 4.14
+ - [X] Listing 5.3
+ - [X] Listing 5.7
+ - [X] Listing 5.11
 
 
 #### Pamplona
@@ -43,12 +43,12 @@ Total: 46 -> C.U: 46/4 = 11,5
 
 #### Pauls
  - [x] Listing 1.3
- - [ ] Listing 2.4
- - [ ] Listing 2.8
- - [ ] Listing 3.3
- - [ ] Listing 3.7
- - [ ] Listing 4.4
- - [ ] Listing 4.8
+ - [x] Listing 2.4
+ - [x] Listing 2.8
+ - [x] Listing 3.3
+ - [x] Listing 3.7
+ - [x] Listing 4.4
+ - [x] Listing 4.8
  - [ ] Listing 4.12
  - [ ] Listing 5.1
  - [ ] Listing 5.5
@@ -58,8 +58,8 @@ Total: 46 -> C.U: 46/4 = 11,5
 #### Sanabria
  - [x] Listing 2.1
  - [x] Listing 2.5
- - [ ] Listing 2.9
- - [ ] Listing 3.4
+ - [x] Listing 2.9
+ - [x] Listing 3.4
  - [ ] Listing 4.1
  - [ ] Listing 4.5
  - [ ] Listing 4.9

@@ -5,32 +5,58 @@ listing-1.3 := $(capitulo_1) #para que funcione make listing-1.3, ejecutando el 
 listing-2.1 := src/capitulo_2/2.1
 listing-2.2 := src/capitulo_2/2.2
 listing-2.3 := src/capitulo_2/2.3
+listing-2.4 := src/capitulo_2/2.4
 listing-2.5 := src/capitulo_2/2.5
 listing-2.6 := src/capitulo_2/2.6
 listing-2.7 := src/capitulo_2/2.7
+listing-2.8 := src/capitulo_2/2.8
+listing-2.9 := src/capitulo_2/2.9
 listing-3.1 := src/capitulo_3/3.1
 listing-3.2 := src/capitulo_3/3.2
+listing-3.3 := src/capitulo_3/3.3
+listing-3.4 := src/capitulo_3/3.4
 listing-3.5 := src/capitulo_3/3.5
 listing-3.6 := src/capitulo_3/3.6
+listing-3.7 := src/capitulo_3/3.7
 listing-4.2 := src/capitulo_4/4.2
 listing-4.3 := src/capitulo_4/4.3
+listing-4.4 := src/capitulo_4/4.4
 listing-4.6 := src/capitulo_4/4.6
+listing-4.8 := src/capitulo_4/4.8
+listing-4.10 := src/capitulo_4/4.10
+listing-4.14 := src/capitulo_4/4.14
+listing-5.3 := src/capitulo_5/5.3
+listing-5.7 := src/capitulo_5/5.7
+listing-5.11 := src/capitulo_5/5.11
 
 listings := \
 	$(capitulo_1) \
 	$(listing-2.1) \
 	$(listing-2.2) \
 	$(listing-2.3) \
+	$(listing-2.4) \
 	$(listing-2.5) \
 	$(listing-2.6) \
 	$(listing-2.7) \
+	$(listing-2.8) \
+	$(listing-2.9) \
 	$(listing-3.1) \
 	$(listing-3.2) \
+	$(listing-3.3) \
+	$(listing-3.4) \
 	$(listing-3.5) \
 	$(listing-3.6) \
+	$(listing-3.7) \
 	$(listing-4.2) \
 	$(listing-4.3) \
-	$(listing-4.6)
+	$(listing-4.4) \
+	$(listing-4.6) \
+	$(listing-4.8) \
+	$(listing-4.10) \
+	$(listing-4.14) \
+	$(listing-5.3) \
+	$(listing-5.7) \
+	$(listing-5.11)
 
 .PHONY: all clean $(listings)
 
