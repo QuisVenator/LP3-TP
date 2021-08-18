@@ -25,7 +25,8 @@ int main ()
         dup2 (fds[0], STDIN_FILENO);
 
         /* Replace the child process with the "sort" program. */ 
-        execlp ("sort", "sort", 0); 
+        // Se convierte el 0 a puntero char para que cuente como puntero null, asi evitar un warning
+        execlp ("sort", "sort", (char*)0); 
     } 
     else { 
         /* This is the parent process. */ 
