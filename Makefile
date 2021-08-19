@@ -18,19 +18,27 @@ listing-3.4 := src/capitulo_3/3.4
 listing-3.5 := src/capitulo_3/3.5
 listing-3.6 := src/capitulo_3/3.6
 listing-3.7 := src/capitulo_3/3.7
+listing-4.1 := src/capitulo_4/4.1
 listing-4.2 := src/capitulo_4/4.2
 listing-4.3 := src/capitulo_4/4.3
 listing-4.4 := src/capitulo_4/4.4
+listing-4.5 := src/capitulo_4/4.5
 listing-4.6 := src/capitulo_4/4.6
 listing-4.7 := src/capitulo_4/4.7
 listing-4.8 := src/capitulo_4/4.8
+listing-4.9 := src/capitulo_4/4.9
 listing-4.10 := src/capitulo_4/4.10
+listing-4.11 := src/capitulo_4/4.11
 listing-4.12 := src/capitulo_4/4.12
 listing-4.14 := src/capitulo_4/4.14
+listing-4.15 := src/capitulo_4/4.15
 listing-5.1 := src/capitulo_5/5.1
 listing-5.3 := src/capitulo_5/5.3
+listing-5.4 := src/capitulo_5/5.4
 listing-5.7 := src/capitulo_5/5.7
+listing-5.8 := src/capitulo_5/5.8
 listing-5.11 := src/capitulo_5/5.11
+listing-5.12 := src/capitulo_5/5.12
 
 listings := \
 	$(capitulo_1) \
@@ -50,19 +58,27 @@ listings := \
 	$(listing-3.5) \
 	$(listing-3.6) \
 	$(listing-3.7) \
+	$(listing-4.1) \
 	$(listing-4.2) \
 	$(listing-4.3) \
 	$(listing-4.4) \
+	$(listing-4.5) \
 	$(listing-4.6) \
 	$(listing-4.7) \
 	$(listing-4.8) \
+	$(listing-4.9) \
 	$(listing-4.10) \
+	$(listing-4.11) \
 	$(listing-4.12) \
 	$(listing-4.14) \
+	$(listing-4.15) \
 	$(listing-5.1) \
 	$(listing-5.3) \
+	$(listing-5.4) \
 	$(listing-5.7) \
-	$(listing-5.11)
+	$(listing-5.8) \
+	$(listing-5.11) \
+	$(listing-5.12)
 
 .PHONY: all clean $(listings)
 
