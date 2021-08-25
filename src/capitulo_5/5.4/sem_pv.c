@@ -3,10 +3,10 @@
 #include <sys/sem.h> 
 #include <errno.h>
 #include <stdio.h>
-#include <pthread.h>
+#include <unistd.h>
 
 // Llave para crear el semaforo
-#define KEY 1492
+key_t key = (key_t) 1337;
 
 // Variable global
 int num;
@@ -65,38 +65,42 @@ int binary_semaphore_initialize (int semid)
 }
 
 // Funcion donde cada thread modifica un valor compartido y lo imprime
-void* thread_function (void* args) {
+void* print_id (void* args, int pid) {
     binary_semaphore_wait(*(int*) args);
-    num = (int) pthread_self ();
-    printf("Thread ID: %d\n", num);
+
+    // Si es el proceso padre duerme
+    if (pid != 0)
+        sleep(3);
+        
+    printf("Process ID: %d\n", pid);
     binary_semaphore_post (*(int*) args);
 
     return NULL;
 }
 
+
+/*
+En este caso de prueba se imprime primero el PID del padre ya que existe un semaforo
+por lo que recien de los 3 segundos del sleep puede continuar y el proceso hijo debe
+esperar
+*/
 int main ()
 {
-    pthread_t threads[10];
-    int i = 0;
+    int semid;
+    int new_sem;
+    pid_t child_pid;
 
     // Inicializacion del semaforo
-    int semid = semget(KEY, 1, IPC_CREAT);
-    int new_sem = binary_semaphore_initialize(semid);
+    semid = semget(key, 1, IPC_CREAT | 0777);
+    new_sem = binary_semaphore_initialize(semid);
     if (new_sem < 0) {
         perror("Falla al inicializar el semaforo");
         return -1;
-    }   
-
-    // Creacion de los threads
-    for (i = 0; i < 10; i++) {
-        if(pthread_create(&threads[i], NULL, &thread_function, &semid) != 0)
-            perror("Error al crear el thread");
     }
-    
-    // Hace esperar a los threads
-    for (i = 0; i < 10; i++)
-        if (pthread_join(threads[i], NULL) != 0)
-            perror("Error hacer join");
 
+    child_pid = fork();
+
+    print_id (&semid, child_pid);
+ 
     return 0;
 }
