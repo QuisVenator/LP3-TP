@@ -65,5 +65,5 @@ Total: 46 -> C.U: 46/4 = 11,5
  - [x] Listing 4.9
  - [ ] Listing 4.13
  - [x] Listing 5.2
- - [ ] Listing 5.6
+ - [x] Listing 5.6
  - [ ] Listing 5.10
