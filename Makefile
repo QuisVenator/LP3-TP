@@ -37,6 +37,7 @@ listing-5.2 := src/capitulo_5/5.2
 listing-5.3 := src/capitulo_5/5.3
 listing-5.4 := src/capitulo_5/5.4
 listing-5.5 := src/capitulo_5/5.5
+listing-5.6 := src/capitulo_5/5.6
 listing-5.7 := src/capitulo_5/5.7
 listing-5.8 := src/capitulo_5/5.8
 listing-5.9 := src/capitulo_5/5.9
@@ -80,6 +81,7 @@ listings := \
 	$(listing-5.3) \
 	$(listing-5.4) \
 	$(listing-5.5) \
+	$(listing-5.6) \
 	$(listing-5.7) \
 	$(listing-5.8) \
 	$(listing-5.9) \
