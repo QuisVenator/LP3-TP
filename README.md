@@ -7,6 +7,14 @@
 * Guillermo Pamplona [@Gentledog](https://github.com/guigapamplona)
 * Francisco Sanabria [@Frandepy](https://github.com/frandepy2)
 
+## Instalaccion de librerias necesarias
+
+```bash
+    sudo apt-get install -y libtiff5-dev
+```
+
+
+
 ### Distribucion de los trabajos: 
 
 Total: 46 -> C.U: 46/4 = 11,5
