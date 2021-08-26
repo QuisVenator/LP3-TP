@@ -19,7 +19,7 @@
 
 Total: 46 -> C.U: 46/4 = 11,5
 
-[x] Trabajo terminado
+- [x] Trabajo terminado
 
 #### Gutierrez
  - [x] Listing 1.1
