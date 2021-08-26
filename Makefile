@@ -30,6 +30,7 @@ listing-4.9 := src/capitulo_4/4.9
 listing-4.10 := src/capitulo_4/4.10
 listing-4.11 := src/capitulo_4/4.11
 listing-4.12 := src/capitulo_4/4.12
+listing-4.13 := src/capitulo_4/4.13
 listing-4.14 := src/capitulo_4/4.14
 listing-4.15 := src/capitulo_4/4.15
 listing-5.1 := src/capitulo_5/5.1
@@ -41,6 +42,7 @@ listing-5.6 := src/capitulo_5/5.6
 listing-5.7 := src/capitulo_5/5.7
 listing-5.8 := src/capitulo_5/5.8
 listing-5.9 := src/capitulo_5/5.9
+listing-5.10 := src/capitulo_5/5.10
 listing-5.11 := src/capitulo_5/5.11
 listing-5.12 := src/capitulo_5/5.12
 
@@ -74,6 +76,7 @@ listings := \
 	$(listing-4.10) \
 	$(listing-4.11) \
 	$(listing-4.12) \
+	$(listing-4.13) \
 	$(listing-4.14) \
 	$(listing-4.15) \
 	$(listing-5.1) \
@@ -85,6 +88,7 @@ listings := \
 	$(listing-5.7) \
 	$(listing-5.8) \
 	$(listing-5.9) \
+	$(listing-5.10) \
 	$(listing-5.11) \
 	$(listing-5.12)
 
