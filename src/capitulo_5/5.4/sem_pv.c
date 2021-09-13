@@ -64,7 +64,7 @@ int binary_semaphore_initialize (int semid)
   return semctl (semid, 0, SETALL, argument);
 }
 
-// Funcion donde cada thread modifica un valor compartido y lo imprime
+// Funcion donde imprime el pid del proceso
 void* print_id (void* args, int pid) {
     binary_semaphore_wait(*(int*) args);
 
