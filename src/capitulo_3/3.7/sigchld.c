@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 sig_atomic_t child_exit_status = 0;
 
@@ -19,6 +20,7 @@ void clean_up_child_process (int signal_number)
     
 int main ()
 {
+    srand(time(NULL));
     /* Handle SIGCHLD by calling clean_up_child_process. */
     struct sigaction sigchld_action;
     memset (&sigchld_action, 0, sizeof (sigchld_action));
