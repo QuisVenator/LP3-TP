@@ -39,7 +39,9 @@ int main (int argc, char* const argv[])
     close (fd);
 
     /* Write a random integer to memory-mapped area. */
-    sprintf((char*) file_memory, "%d\n", random_range (-100, 100));
+    int aux = random_range (-100, 100);
+    sprintf((char*) file_memory, "%d\n", aux);
+    printf("Usar listing 5.6 para verificar que se escribió %d en el archivo.\n", aux);
 
     /* Release the memory (unnecessary because the program exits). */
     munmap (file_memory, FILE_LENGTH);
