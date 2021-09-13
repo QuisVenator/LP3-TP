@@ -1,4 +1,6 @@
 #include "app.h"
+#include<stdio.h>
+
 int main ()
 {
     int aux = f ();
