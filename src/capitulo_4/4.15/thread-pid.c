@@ -17,7 +17,7 @@ int main ()
     int return_value;
     return_value = system ("ps x");
 
-    printf ("Aprete control+c para cerrar (la aplicacion queda en loop)");
+    fprintf (stderr,"Apriete control+c para cerrar (la aplicacion queda en loop)\n");
     pthread_t thread;
     fprintf (stderr, "main thread pid is %d\n", (int) getpid ());
     pthread_create (&thread, NULL, &thread_function, NULL);
