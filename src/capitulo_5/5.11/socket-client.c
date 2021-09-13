@@ -18,8 +18,21 @@ void write_text (int socket_fd, const char* text)
 
 int main (int argc, char* const argv[])
 {
-  const char* const socket_name = argv[1];
-  const char* const message = argv[2];
+
+    char * socket_name;
+    char * message;
+
+    if (argc == 3){    
+        socket_name = argv[1];
+        message = argv[2];
+    }else{
+        socket_name = malloc(256);
+        message = malloc(256);
+        printf("Error en argc, introduzca el path del archivo socket: ");
+        scanf("%s",socket_name);
+        printf("Mensaje: ");
+        scanf("%s",message);
+    }
   int socket_fd;
   struct sockaddr_un name;
 
