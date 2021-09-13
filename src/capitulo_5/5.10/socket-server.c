@@ -37,8 +37,19 @@ int server(int client_socket){
     }
 }
 
-int main(int argc, char * const argv[]){
-    const char * const socket_name = argv[1];
+int main(int argc, char * argv[]){
+
+    char * socket_name;
+
+    if (argc == 2)
+    {    
+        socket_name = argv[1];
+    }else{
+        printf("tomando valores por defecto\n");
+        socket_name = malloc(9);
+        strcpy(socket_name,"./socket");
+    }
+
     int socket_fd;
     struct sockaddr_un name;
     int client_sent_quit_message;
