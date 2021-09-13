@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// Se crea para ejecutar de manera automatica sin cargar argumentos
 int main () {
     int estado = system("./socket-inet www.google.com");
 
